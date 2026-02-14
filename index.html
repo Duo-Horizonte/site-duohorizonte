@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duo Horizonte - Em Construção</title>
+
+  <!-- Fonte moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px;
+      max-width: 700px;
+    }
+
+    /* Logo estilo tech */
+    .logo-icon {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+      border-radius: 24px;
+      background: rgba(56,189,248,0.1);
+      border: 1px solid rgba(56,189,248,0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 64px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 40px rgba(56,189,248,0.15);
+    }
+
+    .logo-text {
+      margin-top: 18px;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      opacity: 0.95;
+    }
+
+    .slogan {
+      margin-top: 8px;
+      font-size: 12px;
+      opacity: 0.6;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .status {
+      margin-top: 60px;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .sub {
+      margin-top: 15px;
+      font-size: 16px;
+      opacity: 0.8;
+    }
+
+    .loader {
+      margin: 40px auto 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,0.1);
+      border-top: 3px solid #38bdf8;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo D + Nome abaixo -->
+    <div class="logo-icon">D</div>
+    <div class="logo-text">DUO HORIZONTE</div>
+    <div class="slogan">por trás de um grande projeto, tem um sonho</div>
+
+    <div class="status">🚧 SITE EM CONSTRUÇÃO</div>
+    <div class="sub">Estamos preparando algo incrível. Volte em breve.</div>
+
+    <div class="loader"></div>
+  </div>
+</body>
+</html>
